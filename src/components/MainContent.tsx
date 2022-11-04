@@ -1,21 +1,24 @@
-import PlaceItem from "./components/PlaceItem"
+import PlaceItem from "./PlaceItem"
 
 function MainContent() :JSX.Element {
     return (
     <div>
         <p> hello main content</p>
        <main>
-            <PlaceItem/>
+            <PlaceItem
+            title= {"hello"}
+            name={"name"}
+            country={"country"}
+            image={"image"}
+            explain={"explain"}
+            maps={"maps"}
+            />
        </main>
     </div>
        
 
     )
 }
-
-
-
-
 
 
 
