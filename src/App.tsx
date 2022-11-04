@@ -1,16 +1,16 @@
-import { greet } from "./utils/greet";
 import AppHeader from "./components/AppHeader";
-import MainContent from "./components/MainContent";
+import MainBody from "./components/MainBody";
 import AppFooter from "./components/AppFooter";
+import PlaceItem from "./components/PlaceItem";
 
 function App(): JSX.Element {
   return (
     <>
-     <AppHeader/>
-     <MainContent/>
-     <AppFooter/>
+      <AppHeader />
+      <MainBody />
+      <AppFooter />
     </>
-  )
+  );
 }
 
 export default App;
